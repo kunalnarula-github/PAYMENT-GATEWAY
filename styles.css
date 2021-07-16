@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@media only screen and (min-width: 1160px){
+body{
+    margin: 0%;
+    background-color: #f1f7fe;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HOME PAGE */
+
+#home-page{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+/* ABOUT US */
+
+#about-us-page{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+/* HIDDEN */
+
+#home-page-hidden{
+    display: none;
+}
+
+#about-us-page-hidden{
+    display: none;
+}
+
+/* HOME PAGE */
+
+/* HOME */
+
+#home{
+    display: grid;
+    place-items: center;
+    width: 85vw;
+    height: 85vh;
+    background-color: white;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 25px;
+    border-color: #f1f7fe;
+    filter: drop-shadow(0 0 1rem rgba(170, 170, 170, 0.295));
+}
+
+/* LOGO */
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 17.5px;
+    width: 5vw;
+    line-height: 15px;
+}
+
+#mask-logo{
+    margin-bottom: 7.5%;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+
+/* HEADING */
+
+#heading{
+    margin-left: -40%;
+}
+
+/* SUPERHEADING */
+
+#superheading{
+    font-weight: 600;
+    font-size: 10px;
+    color: #164DBC;
+}
+
+/* MAIN HEADING */
+
+#main-heading{
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    margin: 0%;
+    width: 30vw;
+}
+
+#blue-heading{
+    color: #164DBC;
+}
+
+/* SUBHEADING */
+
+#subheading{
+    font-weight: 500;
+    font-size: 15px;
+    width: 30vw;
+}
+
+/* DONATE BUTTON */
+
+#donate-button{
+    position: absolute;
+    left: 85%;
+    top: 9%;
+    width: 10vw;
+    height: 5vh;
+    background: #0829B1;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ABOUT US */
+
+#about-us{
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-right: 20px;
+    border-right: 1.5px solid rgb(204, 201, 201);
+}
+
+#about-us:hover,#donate-button:hover{
+    cursor: pointer;
+}
+
+#home-button{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+/* GRAPHIC ELEMENT */
+
+/* MAIN ELEMENTS */
+
+#graphic-elements,#left-main,#right-main,#bottom-main,#small-1,#small-2,#small-3,#yellow-quad,#blue-quad-2,#yellow-quad-2,#blue-quad{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60vw;
+    height: 40vh;
+}
+
+#left-main{
+    left: 70%;
+    top: 30%;
+    height: 25vh;
+    width: 17vw;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#right-main{
+    left: 94.5%;
+    top: 45%;
+    height: 13vh;
+    width: 10vw;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#bottom-main{
+    left: 75%;
+    top: 86%;
+    height: 16vh;
+    width: 11vw;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#small-1,#small-2,#small-3{
+    height: 10vh;
+    width: 7vw;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#small-1{
+    left: 48%;
+    top: 30%;
+}
+
+#small-2{
+    height: 20vh;
+    width: 7vw;
+    left: 92%;
+    top: 92%;
+}
+
+#small-3{
+    height: 10vh;
+    width: 7vw;
+    left: 92%;
+    top: 12%;
+}
+
+#yellow-quad{
+    left: 104%;
+    top: 14%;
+    width: 65px;
+    height: 65px;
+    background-color: 	#008080;
+    border-radius: 0 100% 0 0;
+}
+
+#yellow-quad-2{
+    left: 60%;
+    top: 80%;
+    width: 65px;
+    height: 65px;
+    background-color: 	#008080;
+    border-radius: 100% 0 0 0;
+}
+
+#blue-quad{
+    left: 60%;
+    top: 108%;
+    width: 65px;
+    height: 65px;
+    background-color: #164DBC;
+    border-radius: 0 0 100% 0;
+}
+
+#blue-quad-2{
+    left: 104%;
+    top: 81%;
+    width: 65px;
+    height: 65px;
+    background-color: #164DBC;
+    border-radius: 0 0 100% 0;
+}
+
+/* BOTTOM ELEMENTS */
+
+#element-1,#element-2,#element-3,#element-4,#element-5{
+    display: flex;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+
+#element-1{
+    left: 112%;
+    top: 120%;
+    border-radius: 0 100% 0 0;
+    background-color: 	#483D8B;
+}
+
+#element-2{
+    background: 	#4169E1;
+    left: 107%;
+    top: 120%;
+    border-radius: 15% 15% 15% 0;
+}
+
+#element-3{
+    background: 	#4682B4;
+    left: 107%;
+    top: 135%;
+    border-radius: 15% 0 15% 15%;
+}
+
+#element-4{
+    background: 	#008080;
+    left: 112%;
+    top: 135%;
+    border-radius: 0 15% 15% 15%;
+}
+
+#element-5{
+    background: 	#0000CD;
+    left: 102%;
+    top: 135%;
+    border-radius: 100% 0 0 0;
+}
+
+}
+
+/* ABOUT US PAGE */
+
+#our-mission{
+    display: grid;
+    place-items: center;
+    width: 85vw;
+    height: 85vh;
+    background-color: white;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 25px;
+    border-color: #f1f7fe;
+    filter: drop-shadow(0 0 1rem rgba(170, 170, 170, 0.295));
+}
+
+#foreground{
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.897));
+    height: 85vh;
+    width: 35vw;
+    left: 0%;
+    border-radius: 5%;
+}
+
+#home-button-about-us{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+#vaccine{
+    position: absolute;
+    height: 85vh;
+    left: 0%;
+    border-radius: 5%;
+}
+
+#mission-background{
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    height: 85vh;
+    width: 55vw;
+    left: 35%;
+    border-radius: 25px;
+}
+
+#thankyou-message{
+    display: flex;
+    z-index: 5;
+    margin-top: 5%;
+    margin-left: 42.5%;
+    width: 600px;
+    height: 50x;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#slogan{
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    line-height: 45px;
+    width: 300px;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    z-index: 6;
+}
+
+#slogan-under{
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    line-height: 20px;
+    width: 300px;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    z-index: 6;
+}
+
+/* PLANS */
+
+#plan-1,#plan-2,#plan-3,#plan-4{
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 47.5%;
+    top: 27.5%;
+    background-color: white;
+    height: 20vh;
+    width: 20vw;
+    border-radius: 10px;
+    flex-direction: row;
+    filter: drop-shadow(0 0 0.5rem rgba(170, 170, 170, 0.158));
+}
+
+#plan-1-text,#plan-2-text,#plan-3-text,#plan-4-text{
+    padding: 10px;
+    text-align: center;
+}
+
+#plan-1-price,#plan-2-price,#plan-3-price,#plan-4-price{
+    color: rgb(100, 100, 100);
+}
+
+#plan-1-image,#plan-2-image,#plan-3-image,#plan-4-image{
+background-color: #f1f7fe;
+border-radius: 50%;
+padding: 10px;
+width: 25px;
+height: 25px;
+filter: drop-shadow(0 0 1rem rgba(170, 170, 170, 0.534));
+}
+
+#plan-2{
+    top: 0%;
+    left: 110%;
+}
+
+#plan-3{
+    left: 0%;
+    top: 115%;
+}
+
+#plan-4{
+    left: 110%;
+    top: 115%;
+}
+
+#about-us-donate-button{
+    display: flex;
+    z-index: 10;
+    margin-left: 45%;
+    margin-top: 30%;
+    width: 25vw;
+    height: 7.5vh;
+    justify-content: center;
+    align-items: center;
+    background: #0829B1;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+#target{
+    margin-left: 45%;
+    z-index: 5;
+    color: rgb(100, 100, 100);
+}
+
+
+@media only screen and (max-width: 1160px){
+    body{
+        margin: 0%;
+        background-color: #f1f7fe;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #home-page{
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    }
+
+    #home{
+        display: grid;
+        place-items: center;
+        width: 85vw;
+        height: 85vh;
+        border-color: #f1f7fe;
+        border-radius: 50px;
+        border-style: solid;
+        border-width: 25px;
+        background: linear-gradient(rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)),
+        url(https://i.ibb.co/RPM7ZxK/cdc-3994-Ni-Nyq-M-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: drop-shadow(0 0 1rem rgba(170, 170, 170, 0.295));
+    }
+    /* LOGO */
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 17.5px;
+    width: 5vw;
+    line-height: 15px;
+    margin: 25%;
+}
+
+#mask-logo{
+    margin-bottom: 7.5%;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+/* HEADING */
+
+#heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
+    text-align: center;
+}
+
+/* SUPERHEADING */
+
+#superheading{
+    font-weight: 600;
+    font-size: 10px;
+    color: #164DBC;
+    text-align: center;
+    margin: 5%;
+}
+
+/* MAIN HEADING */
+
+#main-heading{
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    margin: 0%;
+    text-align: center;
+}
+
+#blue-heading{
+    color: #164DBC;
+}
+
+/* SUBHEADING */
+
+#subheading{
+    font-weight: 500;
+    font-size: 15px;
+    width: 30vw;
+    margin: 5%;
+    text-align: center;
+}
+
+/* DONATE BUTTON */
+
+#donate-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    width: 20vw;
+    height: 5vh;
+    background: #0829B1;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ABOUT US */
+
+#about-us{
+    display: none;
+}
+
+#donate-button:hover{
+    cursor: pointer;
+}
+
+#home-button{
+    display: none;
+}
+
+#graphic-elements{
+    display: none;
+}
+
+#about-us-page-hidden,#about-us-page,#our-mission{
+    display: none;
+}
+}
