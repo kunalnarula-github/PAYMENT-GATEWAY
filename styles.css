@@ -587,4 +587,8 @@ filter: drop-shadow(0 0 1rem rgba(170, 170, 170, 0.534));
 #graphic-elements{
     display: none;
 }
+    
+#about-us-page-hidden,#about-us-page{
+    display: none;
+    }
 }
